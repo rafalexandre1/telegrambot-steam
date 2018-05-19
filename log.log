@@ -1,0 +1,37 @@
+19-05-2018  02:18:30 : WARNING : get_friends_id.py : line:65 : [Errno 2] No such file or directory: '../steam/key.txt'
+
+19-05-2018  02:23:28 : WARNING : get_friends_id.py : line:65 : [Errno 2] No such file or directory: '../steam/key.txt'
+
+19-05-2018  02:42:20 : WARNING : get_friends_id.py : line:67 : [Errno 2] No such file or directory: '../steam/key.txt'
+
+19-05-2018  02:54:13 : WARNING : get_friends_id.py : line:67 : [Errno 2] No such file or directory: '../steam/key.txt'
+
+19-05-2018  15:55:48 : WARNING : get_friends_id.py : line:67 : [Errno 2] No such file or directory: '../steam/key.txt'
+
+19-05-2018  17:02:14 : ERROR : dispatcher.py : line:301 : An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/rafael/.virtualenvs/telegrambot-steam/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/home/rafael/.virtualenvs/telegrambot-steam/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/home/rafael/Python/telegrambot-steam/telegrambot_steam/telegrambot/get_telegram_config.py", line 50, in get_id
+    file.write(update.message['chat']['id'])
+TypeError: write() argument must be str, not int
+19-05-2018  17:08:44 : ERROR : dispatcher.py : line:301 : An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/rafael/.virtualenvs/telegrambot-steam/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/home/rafael/.virtualenvs/telegrambot-steam/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/home/rafael/Python/telegrambot-steam/telegrambot_steam/telegrambot/get_telegram_config.py", line 52, in get_id
+    file.write(chatid)
+TypeError: write() argument must be str, not int
+19-05-2018  17:13:21 : ERROR : dispatcher.py : line:301 : An uncaught error was raised while processing the update
+Traceback (most recent call last):
+  File "/home/rafael/.virtualenvs/telegrambot-steam/lib/python3.6/site-packages/telegram/ext/dispatcher.py", line 279, in process_update
+    handler.handle_update(update, self)
+  File "/home/rafael/.virtualenvs/telegrambot-steam/lib/python3.6/site-packages/telegram/ext/commandhandler.py", line 173, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "/home/rafael/Python/telegrambot-steam/telegrambot_steam/telegrambot/get_telegram_config.py", line 52, in get_id
+    file.write(chatid)
+TypeError: write() argument must be str, not int
