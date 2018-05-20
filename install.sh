@@ -1,8 +1,9 @@
 #!/bin/sh
 
-python3.6 setup.py install
+sudo pip3 install -r requirements.txt
+sudo python3.6 setup.py install
 
-chmod +x python_init.py start-bot.sh
+sudo chmod +x python_init.py start-bot.sh
+sudo chown $USER:$USER python_init.py start-bot.sh
 
 exit
-#&& sudo chown $USER:$USER python_init.py start-bot.sh
