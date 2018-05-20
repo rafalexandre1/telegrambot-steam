@@ -1,3 +1,4 @@
+setuptools==39.0.1
 certifi==2018.4.16
 chardet==3.0.4
 future==0.16.0
